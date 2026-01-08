@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv*/
+env/
+ENV/
+
+# Compiled binaries (often large)
+*.dll
+*.so
+*.dylib
+
+# Data files (large - exclude to avoid disk space issues)
+*.pt
+*.pth
+*.pkl
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Results (uncomment if you don't want to commit visualizations)
+# results/*.png
+# results/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+cookies.txt
+*.log
+*.tmp
+
+# Model checkpoints (uncomment if too large for git)
+# *.pth
+# *.ckpt
+
+# Environment variables
+.env
+.env.local
